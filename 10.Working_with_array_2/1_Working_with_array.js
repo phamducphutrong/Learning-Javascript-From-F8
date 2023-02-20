@@ -62,4 +62,4 @@ console.log(course); // hàm find sẽ return lại chính cái phần tử tìm
 var listCourses = courses.filter(function(course, index) { // tìm kiếm tất cả các khóa học trong mảng có tên là Ruby
     return course.name === 'Ruby';
 });
-console.log(listCourses); // hàm filter sẽ trả về 1 array chứa tất cả các phần tử là các khóa học có tên là Ruby, nếu không có thì trả về 1 mảng rỗng
+console.log(listCourses); // hàm filter sẽ trả về 1 array mới chứa tất cả các phần tử là các khóa học có tên là Ruby, nếu không có thì trả về 1 mảng rỗng
